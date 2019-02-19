@@ -1,0 +1,72 @@
+.todo{
+  margin-top: 50px;
+  width: 300px;
+
+  &__input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    color: #424242;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 0px 18px 98px -17px rgba(0,0,0,0.6);
+  }
+
+  &__title{
+    letter-spacing: -7px;
+    font-size: 50px;
+    margin: 10px 0;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  &__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li{
+      padding: 0 10px 0 10px;
+      cursor: pointer;
+      height: 45px;
+      line-height: 45px;
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+    }
+
+    button{
+      padding: 0;
+      border: none;
+      color: #d80000;
+      font-weight: 900;
+      font-size: 18px;
+      background: none;
+      cursor: pointer;
+    }
+    button:active{
+      border: none;
+      outline: none;
+    }
+  }
+
+  &__filters{
+    margin-top: 15px;
+    list-style: none;
+    float: right;
+
+    li{
+      display: inline;
+      margin: 0 2px 0 2px;
+      cursor: pointer;
+      font-size: 13px;
+      border-radius: 3.5px;
+      padding: 1px 2px;
+    }
+  }
+
+}
